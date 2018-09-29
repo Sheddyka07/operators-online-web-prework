@@ -1,5 +1,5 @@
 def unsafe?(speed)
-  speed ? 
+  unsafe? ? speed >= 60 : speed < 60
 end
 
 
